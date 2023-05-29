@@ -1,0 +1,280 @@
+/* Resetting the default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 1rem 2rem;
+}
+
+/* Logo styles */
+a img.logo {
+  height: 60px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #1e7de9;
+}
+/* Contact information styles */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.contact-info{
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align:justify
+}
+
+.site-header .logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+.website-name {
+  margin-left: 10px; /* Change the margin as per your requirement */
+  font-size: 24px; /* Change the font-size as per your requirement */
+  font-weight: bold;
+  color: #333; /* Change the color as per your requirement */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+.hero {
+	height: 100vh; /* set the height to the full viewport height */
+	display: flex; /* use flexbox to vertically center the content */
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; /* stack the content vertically */
+	background-image: linear-gradient(to bottom, #333, #777); /* use a gradient background */
+	color: #fff;
+	text-align: center;
+	padding: 0 1em;
+  
+}
+.hero h1 {
+	font-size: 3em;
+	margin: 0;
+	line-height: 1.2;
+}
+.hero p {
+	font-size: 1.2em;
+	margin: 1em 0;
+	max-width: 25em;
+	line-height: 1.5;
+}
+.hero button {
+	padding: 1em 2em;
+	border: none;
+	background-color: #fff;
+	color: #333;
+	font-size: 1.2em;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+.hero button:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.welcome-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  width: 800px;
+  margin: 50px auto;
+  border-radius: 4px;
+}
+.welcome-box img {
+  height: 100px;
+  margin-right: 1em;
+}
+.welcome-box h1 {
+  font-size: 2em;
+  margin: 0;
+}
+.welcome-box p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+/* main section styles */
+main {
+  max-width: 800px; /* set a maximum width to keep the content from becoming too wide */
+  margin: 0 auto; /* center the main content horizontally */
+  padding: 2em;
+}
+
+main h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+main p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+main a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+  transition: border-bottom 0.3s ease;
+}
+
+main a:hover {
+  border-bottom: 2px solid #777;
+}
+
+.best-works {
+    max-width: 800px;
+    margin: 0 auto 2em;
+}
+
+.best-works h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.work-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1em;
+}
+
+.work-card img {
+    max-width: 800px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0;
+    border:1px dashed rgb(172, 172, 172);
+}
+
+.work-info {
+    flex: 1;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    border-radius: 4px;
+}
+
+.work-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.work-info p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+.work-info a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.work-info a:hover {
+    background-color: #444;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2em;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 30%;
+  margin-bottom: 2em;
+}
+
+.footer-col h3 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.footer-col p, .social-links li a {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.2em;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+.gallery-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  border:1px solid rgb(172, 172, 172);
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer; /* optional: add a pointer cursor to the images */
+}
